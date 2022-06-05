@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:getx_calculator/display.dart';
+import 'package:getx_calculator/screens/cal_display.dart';
 import 'package:get/get.dart';
 
 void main() {
   runApp(GetMaterialApp(
-      home: Display(
+      home: CalDisplay(
     title: 'Calculator',
   )));
 }
